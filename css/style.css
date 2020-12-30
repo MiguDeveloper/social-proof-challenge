@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: white;
+  padding: 0 4em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  background: url("../images/bg-pattern-bottom-desktop.svg") bottom right no-repeat;
+}
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  background: url("../images/bg-pattern-top-desktop.svg") left -122px top no-repeat;
+  padding-top: 9.6em;
+}
+.content-description {
+  flex-grow: 1;
+  flex-basis: 23%;
+}
+.content-description h1 {
+  color: #502050;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+.content-description p {
+  color: #937b92;
+  font-size: 1em;
+}
+.content-ratings {
+  flex-grow: 1;
+  flex-basis: 48%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.content-ratings-rating {
+  width: 66%;
+  color: #502050;
+  font-size: 0.9em;
+  font-weight: 700;
+  background-color: #f7f2f7;
+  padding: 1.5em 2em;
+  margin-bottom: 1em;
+  border-radius: 6px;
+}
+.content-ratings-rating img:last-child {
+  margin-right: 1.5em;
+}
+.content-ratings-rating:nth-child(1) {
+  margin-left: auto;
+  margin-right: 6.3em;
+}
+.content-ratings-rating:nth-child(2) {
+  margin-left: auto;
+  margin-right: 3.2em;
+}
+.content-ratings-rating:nth-child(3) {
+  margin-left: auto;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 6em 0;
+  min-height: 301px;
+}
+.cards-card {
+  flex-basis: 30%;
+  background-color: #502050;
+  color: #f7f2f7;
+  border-radius: 0.6em;
+  padding: 3em 2.5em;
+  height: 271px;
+}
+.cards-card-data {
+  display: grid;
+  grid-template-columns: 27% 1fr;
+  margin-bottom: 1.8em;
+  align-items: center;
+  line-height: 1.4em;
+}
+.cards-card-data img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.cards-card-data h2 {
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.cards-card-data h3 {
+  font-weight: 400;
+  color: #ee68a4;
+  font-size: 0.9em;
+}
+.cards-card p {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+.cards-card:nth-child(2) {
+  margin-top: 1em;
+}
+.cards-card:nth-child(3) {
+  margin-top: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
